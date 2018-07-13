@@ -1,0 +1,21 @@
+# serverless.yml
+
+service: template
+
+provider:
+  name: aws
+  runtime: go1.x
+
+package:
+ exclude:
+   - ./**
+ include:
+   - ./bin/**
+
+functions:
+  hello:
+    handler: bin/template
+    events:
+      - http:
+          path: template
+          method: post
