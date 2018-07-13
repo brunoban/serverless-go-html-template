@@ -1,7 +1,8 @@
 # Serverless Golang Template
 
-First edit the Dockerfile to add AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY.
-Edit the template in `template/main.go` (HtmlTemplate).
+First edit the Dockerfile to add `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`.
+
+Edit the template in `template/main.go` (`HtmlTemplate`).
 
 Add the variables you want to insert in the template like this
 
